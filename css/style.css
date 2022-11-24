@@ -471,6 +471,15 @@ body {
     }
   }
 
- 
+ @media screen and (max-width:1172px){
+  .container2{
+    display: none;
+
+  }
+
+ .container3{
+  display: none;
+ }
+ }
 
   
