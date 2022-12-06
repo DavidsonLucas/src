@@ -380,21 +380,20 @@ body {
     display: flex;
     justify-content:center;
     align-items: center;
-    
-
-
-    background:url("../asset/bck2.gif");    
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background:transparent;    
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     width: 150px;
     height: 360px;
     border: 2px solid #ee3acf;
     border-radius: 10px;
-    box-shadow: 0 0 60px #ee3acf;
+    box-shadow: 0 0 10px #4bdff1 ;
     position: absolute;
     right: 9rem;
     bottom: -4rem;
     rotate: -90deg;
+    color:linear-gradient(50deg,#ee3acf 36%,#4bdff1 64%);
+    
   }
   
   .container2::after{
@@ -438,8 +437,9 @@ body {
   display: flex;
   justify-content: left;
   initial-value: left;
-    transform: translateX(0);
+  transform: translateX(0);
   animation:  line .7s ease-out infinite ;
+  
   }
 
   .tg{
@@ -453,9 +453,11 @@ body {
   #resultado{
     rotate: 90deg;
     position: absolute;
-    top:16rem
+    top:16rem;
+    font-size: 40px;
 
   }
+
 
   @keyframes line{
     0%{
