@@ -62,7 +62,7 @@ function showInfosTab(tab) {
   //adiciona o ID do elemento que eu quero mostrar ao clicar
   const infoToBeShown = document.getElementById(idElementInfosTab)
   infoToBeShown.classList.add("selected");
-}
+ }
 
 const myInput = document.getElementById("put")
 

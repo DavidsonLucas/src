@@ -54,7 +54,7 @@ body {
   }
   
   .card .content {
-    background-color;
+    
     margin-top: 15px;
   }
   
@@ -94,6 +94,9 @@ body {
   }
   
   .infos-tabs .info.selected {
+
+
+    
     display: block;
   }
   
@@ -115,7 +118,7 @@ body {
   }
   
   .infos-tabs .description a {
-    color: ##00E4F4;
+    color: #00E4F4;
   }
   
   .infos-tabs .description a:hover {
@@ -211,7 +214,7 @@ body {
   }
   
   .social-networks .linkedin img {
-    width: 25px;
+      width: 25px;
     height: 25px;
   }
   
